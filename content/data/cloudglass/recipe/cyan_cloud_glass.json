@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    " W ",
+    "WGW",
+    " W "
+  ],
+  "key": {
+    "G": "#c:glass_blocks/colorless",
+    "W": "minecraft:cyan_wool"
+  },
+  "result": {
+    "id": "cloudglass:cyan_cloud_glass",
+    "count": 4
+  }
+}

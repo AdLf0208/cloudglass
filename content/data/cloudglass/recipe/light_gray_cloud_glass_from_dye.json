@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "CCC",
+    "CDC",
+    "CCC"
+  ],
+  "key": {
+    "C": "cloudglass:white_cloud_glass",
+    "D": "#c:dyes/light_gray"
+  },
+  "result": {
+    "id": "cloudglass:light_gray_cloud_glass",
+    "count": 8
+  }
+}

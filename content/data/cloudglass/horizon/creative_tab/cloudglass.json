@@ -1,0 +1,22 @@
+{
+  "title": "Cloud Glass",
+  "icon": "cloudglass:light_blue_cloud_glass",
+  "items": [
+    "cloudglass:white_cloud_glass",
+    "cloudglass:orange_cloud_glass",
+    "cloudglass:magenta_cloud_glass",
+    "cloudglass:light_blue_cloud_glass",
+    "cloudglass:yellow_cloud_glass",
+    "cloudglass:lime_cloud_glass",
+    "cloudglass:pink_cloud_glass",
+    "cloudglass:gray_cloud_glass",
+    "cloudglass:light_gray_cloud_glass",
+    "cloudglass:cyan_cloud_glass",
+    "cloudglass:purple_cloud_glass",
+    "cloudglass:blue_cloud_glass",
+    "cloudglass:brown_cloud_glass",
+    "cloudglass:green_cloud_glass",
+    "cloudglass:red_cloud_glass",
+    "cloudglass:black_cloud_glass"
+  ]
+}

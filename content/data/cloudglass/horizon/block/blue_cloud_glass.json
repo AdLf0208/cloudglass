@@ -1,0 +1,11 @@
+{
+  "template": "minecraft:cobweb",
+  "properties": {
+    "hardness": 0.3,
+    "explosion_resistance": 0.3,
+    "map_color": 25,
+    "requires_tool": false,
+    "sounds": "minecraft:glass"
+  },
+  "item": true
+}

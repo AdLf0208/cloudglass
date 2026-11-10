@@ -1,0 +1,15 @@
+[package]
+# Content port of: Cloud Glass 1.1.0 (Mrbysco/CloudGlass, MIT). The colour
+# registry model is a clean-room Rust rewrite; the textures, models and lang
+# are the upstream mod's own MIT assets (see LICENSE and notes.md).
+name = "horizon-cloudglass"
+version = "1.1.0"
+edition = "2024"
+rust-version = "1.95"
+license = "MIT"
+description = "Cloud Glass' sixteen semi-transparent, no-collision glass blocks for Horizon"
+publish = false
+
+[lib]
+# This exact source is also injected as a same-crate module by horizon-mixins.
+path = "mixins/cloudglass/runtime.rs"

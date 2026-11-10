@@ -1,0 +1,11 @@
+# Port-owned content mod for Cloud Glass 1.1.0: the sixteen
+# semi-transparent, no-collision cloud glass blocks. The textures, models and
+# lang are the upstream mod's own MIT assets (see ../LICENSE and ../notes.md).
+id = "cloudglass"
+name = "Cloud Glass"
+version = "0.1.0"
+description = "Sixteen semi-transparent, no-collision decorative cloud glass blocks"
+authors = ["Mrbysco"]
+api = "0.2"
+side = "both"
+capabilities = ["registries"]

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    " W ",
+    "WGW",
+    " W "
+  ],
+  "key": {
+    "G": "#c:glass_blocks/colorless",
+    "W": "minecraft:yellow_wool"
+  },
+  "result": {
+    "id": "cloudglass:yellow_cloud_glass",
+    "count": 4
+  }
+}

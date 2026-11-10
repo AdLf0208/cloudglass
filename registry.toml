@@ -1,0 +1,49 @@
+id = "cloudglass"
+kind = "native-mod"
+name = "cloudglass"
+summary = "A Horizon port of cloudglass."
+description = """
+A port of [cloudglass](Mrbysco/CloudGlass) for Horizon.
+
+**Implemented so far**
+
+- Each colour has:
+- a `CloudGlassBlock` (`CloudGlassBlock.java:14-45`): `TransparentBlock` with
+- `noCollission()`, `noOcclusion()`, `isValidSpawn(false)`,
+- `isRedstoneConductor(false)`, `isSuffocating(false)`, `isViewBlocking(false)`,
+- `strength(0.3F)`, `sound(SoundType.GLASS)` and `mapColor(dye)`
+- (`CloudRegistry.java:31-45`); not waterloggable (`canPlaceLiquid`/
+- `placeLiquid` return false);
+- a self-drop loot table (`CloudLootProvider.java:29-34`);
+
+**Not yet ported**
+
+- No panes.** Upstream 1.1.0 has no pane block, blockstate, model, recipe
+- or lang key; the dispatch's "blocks/panes" was an assumption. The port
+- ships the sixteen blocks the README and registry define.
+- Template facts.** `minecraft:cobweb` is the only 26.3 block with a single
+- state, an empty collision table, `can_occlude: false`, a `MODEL` render
+- shape and an item. Two template facts differ from upstream's
+- `noOcclusion()`: `dampening` is 1 and `skylight_down` is false (vanilla
+- glass is 0/true), so cloud glass slightly attenuates skylight; and
+
+Original copyright and licence notices are kept in this repository. Pinned to
+Horizon 1d63e0a and horizon-mixins 5a64af93. Help with the remaining slices is
+welcome.
+"""
+authors = ["AdLf0208"]
+owners = ["AdLf0208"]
+owner_ids = [107615167]
+license = "MIT"
+source = "https://github.com/AdLf0208/cloudglass"
+icon = "icons/cloudglass.png"
+categories = ["utility"]
+tags = ["port", "horizon"]
+
+[[versions]]
+version = "0.1.0"
+published = "2026-11-10"
+game = "26.3"
+file = "cloudglass.hnmod"
+sha256 = "c2f31cb3627c0cd604355924f01cfc3cd040aa301725ec9ad2778c1d2fe0392e"
+changelog = "First release (port 0.1.0: the sixteen carried blocks, their items, recipes, drops and walking behaviour, all inside one .hnmod)"
